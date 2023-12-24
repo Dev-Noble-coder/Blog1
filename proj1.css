@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'figtree' sans-serif;
+}
+.blog{
+    background-color: white;
+    width: 330px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 3px 3px black;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+   
+}
+
+.firstImage{
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    
+}
+ .but{
+    margin-left:15px ;
+    margin-top: 15px;
+    background-color: hsl(47, 88%, 63%); 
+    border: none;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+}
+#published{
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 600;
+}
+h3{
+    padding-left: 15px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+#text{
+    margin-left: 15px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 25px;
+}
+#end{
+    margin-left: 15px;
+    display: flex;
+    gap:  10px;
+    margin-bottom: 10px;
+}
+#end img{
+    border-radius: 15px;
+}
+#end figcaption{
+    padding-top: 5px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
